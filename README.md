@@ -32,9 +32,10 @@
 ## 📚 Installation
 
 ```
-git clone https://github.com/MrShehabTito/chillbot
-cd chillbotv1
+git clone https://github.com/chill-music/chillmusic
+cd chillbot
 npm install
+node .
 ```
 
 <details><summary>📄 Configuration [CLICK ME]</summary>

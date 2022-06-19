@@ -35,7 +35,6 @@
 git clone https://github.com/MrShehabTito/chillbot
 cd chillbotv1
 npm install
-npm i uuid
 ```
 
 <details><summary>📄 Configuration [CLICK ME]</summary>

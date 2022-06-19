@@ -76,15 +76,6 @@ EMBED_COLOR=#000001
 # Devloper
 OWNER_ID=REPLACE_HERE
 
-# Database
-MONGO_URI=mongodb://127.0.0.1:27017/ChillMusic
-LIMIT_TRACK=100
-LIMIT_PLAYLIST=10
-
-# Lavalink
-NODE_HOST=localhost
-NODE_PORT=5555
-NODE_PASSWORD=123456
 ```
 
 > **OPTION 2️⃣**
@@ -97,7 +88,7 @@ const { resolve } = require("path");
 
 module.exports = {
     TOKEN: process.env.TOKEN || "YOUR_TOKEN",  // your bot token
-    PREFIX: process.env.PREFIX || "#", //<= default is #  // bot prefix
+    PREFIX: process.env.PREFIX || "-", //<= default is -  // bot prefix
     EMBED_COLOR: process.env.EMBED_COLOR || "#000001", //<= default is "#000001"
 
     OWNER_ID: process.env.OWNER_ID || "YOUR_OWNER_ID", //your owner discord id example: "298816961293451266"
@@ -118,9 +109,9 @@ module.exports = {
 
     NODES: [
       { 
-        host: process.env.NODE_HOST || "localhost",
-        port: parseInt(process.env.NODE_PORT || "5555"),
-        password: process.env.NODE_PASSWORD || "123456",
+        host: process.env.NODE_HOST || "",
+        port: parseInt(process.env.NODE_PORT || ""),
+        password: process.env.NODE_PASSWORD || "",
       } 
     ],
 }
@@ -234,7 +225,7 @@ After installation or finishes all you can use `node .` to start the bot. or `Ru
 <p>
 
 ## 👏 THANK
-- [ShehabTito](https://github.com/MrShehabTito/ChillBot)
+- [ShehabTito](https://discord.gg/apjZpD2eJu)
 
 </p>
 </details>

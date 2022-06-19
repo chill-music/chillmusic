@@ -1,0 +1,17 @@
+##### Generate command #####
+provide_plan: "Please provide plan: %{plans} <:Plan:980512777238098010>"
+plan_invalid: ":x: Invalid Plan available plans: %{plans} <:Plan:980512777238098010>"
+gen_author: "Generate Code"
+gen_desc: "• *Generated* [`+%{codes_length}`]\n```%{codes}```\n • *Plan*: `%{plan}`\n • *Expires at*: `%{expires}`"
+gen_footer: "Type: %{prefix}redeem <code> to redeem!"
+
+##### Profile command #####
+profile_author: "Premium Profile"
+profile_desc: "<:member:980511392580894791> *User*: `%{user}`\n<:Plan:980512777238098010> *Plan*: `%{plan}`\n<:timeout:980514040528908308> *Expires at*: `%{expires}`"
+
+##### Redeem command #####
+redeem_arg: "Please specify the code you want to redeem!"
+redeem_already: "You already are a premium user"
+redeem_title: "Premium Redeemed"
+redeem_desc: "**You have successfully Redeemed Premium!**\n\n*Expires at*: [`%{expires}`]"
+redeem_invalid: ":x: **The code is invalid. Please try again using valid one!**\n\n<:arrow:984401901644820530> **if you think this is mistake contact: ShehabTito#3055** <:discordmod:980517050613125210>"

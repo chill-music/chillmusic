@@ -1,0 +1,41 @@
+##### All Filter command!
+filter_loading: "سيتم التغيير علي **%{name}**. وهذا قد يستغرق بضع ثوان"
+filter_on: "`🔩` | `%{name} :تم التغيير على`"
+filter_number: ".الرجاء إدخال رقم"
+
+filter_greater: ".0 يجب أن يكون الرقم أكبر من"
+filter_less: ".10 يجب أن يكون الرقم أقل من"
+
+# Bassboost commaand!
+bassboost_loading: "لقد تم ضبط **Bassboost** إلى .**%{amount}dB** وهذا قد يستغرق بضع ثوان..."
+bassboost_set: "`🔩` | **Bassboost تم ضبطها الى:** `%{amount}`"
+bassboost_limit: ".الرجاء إدخال رقم بين -10 أو 10"
+
+# Equalizer command!
+eq_author: "معادل مخصص"
+eq_icon: "https://cdn.discordapp.com/emojis/758423098885275748.gif"
+eq_desc: ".هناك 14 نطاقًا يمكن ضبطها من -10 إلى 10. ولا يلزم ملء كل النطاقات"
+eq_field_title: "مثال:"
+eq_field_value: "%{prefix}eq 2 3 0 8 0 5 0 -5 0 0"
+eq_number: ".فرقة #%{num} ليس رقم صالح"
+eq_than: ".فرقة #%{num} يجب أن يكون أقل من 10"
+eq_footer: "إعادة تعيين نوع المعادل: *eq reset"
+
+eq_loading: "لقد تم ضبط **Equalizer** إلى **`%{bands}`** وهذا قد يستغرق بضع ثوان..."
+eq_on: "`🔩` | *Equalizer set to:* `%{bands}`"
+
+# Pitch command!
+pitch_loading: "لقد تم ضبط **Pitch** إلى **%{amount}**. وهذا قد يستغرق بضع ثوان..."
+pitch_on: "`🔩` | *Pitch set to:* `%{amount}`"
+
+# Rate command!
+rate_loading: "لقد تم ضبط **Rate** إلى **%{amount}**. وهذا قد يستغرق بضع ثوان..."
+rate_on: "`🔩` | *Rate set to:* `%{amount}x`"
+
+# Reset command!
+reset_loading: "جارٍ إيقاف تشغيل **filter** وهذا قد يستغرق بضع ثوان..."
+reset_on: "`🔩` | *Turned off:* `filter`"
+
+# Speed command!
+speed_loading: "لقد تم ضبط **Speed** إلى **%{amount}**. وهذا قد يستغرق بضع ثوان..."
+speed_on: "`🔩` | *Speed set to:* `%{amount}x`"

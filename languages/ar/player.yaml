@@ -1,0 +1,64 @@
+##### On track start playing! Event #####
+track_title: "لقد تم بدء الاغنيه..."
+track_icon: "https://cdn.discordapp.com/attachments/787939523538845697/982384950248615977/FA_FoxxoMusic.gif"
+
+# Embed Field
+author_title: "<:micro:984401903523864617> اسم المغني:"
+request_title: "<:members:984406529673420831> مقدم الطلب:"
+volume_title: "<:volume_rubby:984406014067609610> حجم الصوت:"
+queue_title: "<:queue:984413985220726844> طول قائمة الانتظار:"
+duration_title: "<:IconTimer:984414517800861716> مده الاغنيه:"
+total_duration_title: "<:IconTimer:984414517800861716> المدة الإجمالية:"
+current_duration_title: "المدة الحالية: `[0:00 / %{current_duration}]`"
+
+# Need in voice to use button!
+join_voice: "يجب أن تكون في نفس القناة الصوتية لاستخدام هذا الزر."
+
+# Message Button
+switch_pause: لقد تم ايقاف الاغنيه مؤقتا
+switch_resume: لقد تم تشغيل الاغنيه
+pause_msg: "`⏯` | `%{pause}`"
+
+skip_msg: "`⏭` | `تم تخطي` *الاغنيه*"
+
+stop_msg: "`🚫` | `تم ايقاف` *الاغنيه*"
+
+shuffle_msg: "`🔀` | *تم تنشيط الوضع:* `العشوائي`"
+
+switch_enable: لقد تم تفعيل وضعيه التكرار
+switch_disable: تم ايقاف وضعيه التكرار
+repeat_msg: "`🔁` | `%{loop}`"
+
+volup_msg: "`🔊` | *تغيير الصوت إلى:* `%{volume}%`"
+voldown_msg: "`🔈` | *تغيير الصوت إلى:* `%{volume}%`"
+
+replay_msg: "`⏮` | *تمت إعادة تشغيل* `الأغنية`"
+
+queue_author: "قوائم الانتظار - %{guild}"
+queue_description: "*الاغنيه الحاليه*\n*[%{track}](%{track_url})* `[%{duration}]` • %{requester}\n\n*باقي قائمة الانتظار*:%{list_song}"
+queue_footer: "صفحة • %{page}/%{pages} | %{queue_lang} • الاغنيه | %{total_duration} • المدة الإجمالية"
+
+clear_msg: "`📛` | *تم مسح قائمة* `الانتظار`"
+
+
+##### On QueueEnd Event #####
+queue_end_desc: "`📛` | *تم إنهاء* `الأغاني`"
+
+
+##### On Track get error!! Event #####
+error_desc: "`❌` | *الأغنية بها خطأ* `تم تخطيه تلقائيًا`"
+
+
+##### On Track get stuck!! Event #####
+stuck_desc: "`❌` | *الأغنية عالقة* ، `تم التخطي تلقائيًا`"
+
+
+##### On Bot get move Event #####
+
+# On player get discoconnect
+dis_title: "انقطع الاتصال"
+dis_desc: "*لقد تم قطع اتصالي من <#%{voice}>*"
+
+# On player get move! = (detroy player)
+leave_title: "انتقل"
+leave_desc: "*نقلني شخص ما ، تم قطع الاتصال تلقائيًا*"

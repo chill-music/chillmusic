@@ -1,0 +1,7 @@
+##### voiceStateUpdate #####
+
+# On nobody in voice!
+wait_leave: قطع الاتصال <#%{voice}> في %{timeout} الدقائق, لا يوجد اي شخص في المكالمه الصوتيه
+
+# On bot waiting to disconnected!
+timeout_leave: قطع الاتصال من <#%{voice}> لا يوجد اي شخص في المكالمه الصوتيه

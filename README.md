@@ -29,13 +29,30 @@
 ✈ Join Discord soon:  [Chill Music ♪♪](https://discord.gg/apjZpD2eJu)
    mention me in chat #general ask problem okay! 👌
 
+<details><summary>📎 Requirements [CLICK ME]</summary>
+<p>
+
+## 📎 Requirements
+
+1. Node.js Version 16.6.0+ **[Download](https://nodejs.org/en/download/)**
+2. Discord Bot Token **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
+3. LavaLink **[Guide](https://github.com/freyacodes/lavalink)** (i use this development version [Download](https://ci.fredboat.com/repository/downloadAll/Lavalink_Build/9311:id/artifacts.zip) )
+4. MongoDB **[Download](https://www.mongodb.com/try/download/community)** (Download & install = Finish!)
+
+## 🛑 Super Requirements 
+
+Java 11-13 **[Download JDK13](http://www.mediafire.com/file/m6gk7aoq96db8g0/file)** (i use this version) for LAVALINK!
+
+</p>
+</details>
+
 ## 📚 Installation
 
 ```
-git clone https://github.com/chill-music/chillmusic
-cd chillbot
+git clone https://github.com/MrShehabTito/chillbot
+cd chillbotv1
 npm install
-node .
+npm i uuid
 ```
 
 <details><summary>📄 Configuration [CLICK ME]</summary>
@@ -59,6 +76,15 @@ EMBED_COLOR=#000001
 # Devloper
 OWNER_ID=REPLACE_HERE
 
+# Database
+MONGO_URI=mongodb://127.0.0.1:27017/ChillMusic
+LIMIT_TRACK=100
+LIMIT_PLAYLIST=10
+
+# Lavalink
+NODE_HOST=localhost
+NODE_PORT=5555
+NODE_PASSWORD=123456
 ```
 
 > **OPTION 2️⃣**
@@ -71,7 +97,7 @@ const { resolve } = require("path");
 
 module.exports = {
     TOKEN: process.env.TOKEN || "YOUR_TOKEN",  // your bot token
-    PREFIX: process.env.PREFIX || "-", //<= default is -  // bot prefix
+    PREFIX: process.env.PREFIX || "#", //<= default is #  // bot prefix
     EMBED_COLOR: process.env.EMBED_COLOR || "#000001", //<= default is "#000001"
 
     OWNER_ID: process.env.OWNER_ID || "YOUR_OWNER_ID", //your owner discord id example: "298816961293451266"
@@ -92,9 +118,9 @@ module.exports = {
 
     NODES: [
       { 
-        host: process.env.NODE_HOST || "",
-        port: parseInt(process.env.NODE_PORT || ""),
-        password: process.env.NODE_PASSWORD || "",
+        host: process.env.NODE_HOST || "localhost",
+        port: parseInt(process.env.NODE_PORT || "5555"),
+        password: process.env.NODE_PASSWORD || "123456",
       } 
     ],
 }
@@ -109,7 +135,7 @@ After installation or finishes all you can use `node .` to start the bot. or `Ru
 
 ## 🔩 Features & Commands
 
-> Note: The default prefix is '-'
+> Note: The default prefix is '#'
 
 🎶 **Music Commands!** 
 
@@ -208,7 +234,7 @@ After installation or finishes all you can use `node .` to start the bot. or `Ru
 <p>
 
 ## 👏 THANK
-- [ShehabTito](https://discord.gg/apjZpD2eJu)
+- [ShehabTito](https://github.com/MrShehabTito/ChillBot)
 
 </p>
 </details>

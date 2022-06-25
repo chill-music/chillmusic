@@ -18,7 +18,7 @@ module.exports = {
 
     DEV_ID: [], // if you want to use command bot only, you can put your id here example: ["123456789", "123456789"]
 
-    MONGO_URI: process.env.MONGO_URI || "mongodb+srv://shehabtito:shehab01125336794shehab@discordbot.0frp1.mongodb.net/shehabtito?retryWrites=true&w=majority", // your mongo uri
+    MONGO_URI: process.env.MONGO_URI || "", // your mongo uri
     LIMIT_TRACK: parseInt(process.env.LIMIT_TRACK || "200"),  //<= dafault is "100" // limit track in playlist
     LIMIT_PLAYLIST: parseInt(process.env.LIMIT_PLAYLIST || "5"), //<= default is "10" // limit can create playlist
 

@@ -202,7 +202,6 @@ module.exports = {
                     }
                     else if(res.loadType == "LOAD_FAILED") {
                         msg.edit(`${client.i18n.get(language, "music", "search_fail")}`);
-                        player.destroy();
                     }
                 }
                 else {

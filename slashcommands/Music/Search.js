@@ -181,7 +181,6 @@ module.exports = {
                     collector.on('end', async (collected, reason) => {
                         if(reason === "time") {
                             msg.edit({ content: `${client.i18n.get(language, "music", "search_no_response")}`, embeds: [], components: [] });
-                            player.destroy();
                         }
                     });
 

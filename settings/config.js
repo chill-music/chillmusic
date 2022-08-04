@@ -24,9 +24,9 @@ module.exports = {
 
     NODES: [
       { 
-        host: process.env.NODE_HOST || "lavalink.oops.wtf",
-        port: parseInt(process.env.NODE_PORT || "2000"),
-        password: process.env.NODE_PASSWORD || "www.freelavalink.ga",
+        host: process.env.NODE_HOST || "lavalink-nitrixexe.ml",
+        port: parseInt(process.env.NODE_PORT || "19147"),
+        password: process.env.NODE_PASSWORD || "dsc.gg/nitrixexe",
       } 
     ],
 }
